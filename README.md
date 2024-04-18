@@ -2,7 +2,7 @@
 
 1. First: Use Flexbox to style a typical header navbar.
 
-2. Use position to change the placing of the h3 element (sale)
+2. Use position to change the placing of the h3 element (sale) - Used method "Grid"
 
 3. Use Flexbox and media query (included in the CSS document
 already) to get a layout that has a row direction when the
