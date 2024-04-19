@@ -1,0 +1,72 @@
+/* Style the section using
+    flex,
+    flex-direction,
+    gap,
+    margin,
+    padding,
+    background-color,
+    border-radius,
+    max-width
+ */
+
+ section {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    
+
+}
+
+body {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+article {
+    background-color: rgb(174, 252, 213);
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: left;
+    padding: 11px;
+    position: relative;
+    min-width: 200px;
+    margin-top: 10px;
+    max-width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    
+    }
+
+    article h2 {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        
+    }
+
+hr {
+    
+    border-color: black;
+    border-width: 1px;
+    margin-left: 5px;
+    margin-right: 5%;    
+    }
+
+article p {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    section {
+        flex-direction: column !important;
+    }
+    
+    article {
+        margin-bottom: 20px;
+        margin: 0 auto !important;
+        background-color: rgb(223, 164, 87);
+    }
+}
